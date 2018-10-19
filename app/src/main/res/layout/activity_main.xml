@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <ListView
+        android:id="@+id/idList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#ff22"
+        android:dividerHeight="1.5dp"
+        android:listSelector="#27e233"
+        android:background="#2EFEF7"
+        >
+    </ListView>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:text="About Developer"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#008000"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bd1"/>
+
+
+</LinearLayout>
